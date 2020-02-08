@@ -10,3 +10,6 @@ Created a GraphQl Api with `apollo-server-express` package. Setup an Apollo Serv
 
 ### STEP-03 Branch
 Created a Cluster and database in MongoDB Atlas. Installed `mongodb` package and its types. Seed our db with the `seed` script in `package.json` leveraging `seed.ts` file. Inside `/database` we created a connection with our Mongo Atlas database. Update both typeDefinitions and resolvers inside `/graphql` folder and then modularized resolvers inside `/resolvers` directory.
+
+### STEP-04 Branch
+Created a `/client` folder with `create-react-app` using `npx create-react-app client --typescript`. Removed all useless files and styles to clean up this React boilerplate.
