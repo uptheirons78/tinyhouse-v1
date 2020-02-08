@@ -13,3 +13,6 @@ Created a Cluster and database in MongoDB Atlas. Installed `mongodb` package and
 
 ### STEP-04 Branch
 Created a `/client` folder with `create-react-app` using `npx create-react-app client --typescript`. Removed all useless files and styles to clean up this React boilerplate.
+
+### STEP-05 Branch
+Created `Listings` component. Created a `server` method to fetch data from GraphQL. Then implemented this server method inside `Listings` component both to query data from GraphQL and display those inside the console and to run the delete mutation (for now id of item to delete is hardcoded). N.B. Called `proxy` inside `package.json`.
