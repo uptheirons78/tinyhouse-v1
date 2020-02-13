@@ -22,3 +22,6 @@ Fetched data from database to be displayed on the front-end. Created different c
 
 ### STEP-07 Branch
 Installed `apollo-boost`, `react-apollo` and `graphql` for Apollo Client setup. Also installed `@types/graphql` for Typescript types definitions. Imported `ApolloClient` and `ApolloProvider` inside `src/index.ts` file and wrapped main application with ApolloProvider so it will be available everywhere in our app. Inside `Listings.tsx` imported `gql` from apollo-boost and edit both LISTINGS and DELETE_LISTINGS queries. Also imported `useQuery` and `useMutation` from 'apollo-boost'. Modified `id` variable inside `handleDeleteListings` because apollo-boost need variables optional field expecting an object like this: `{variables: {id}}`. Deleted all `lib` folder, now useless. Created a couple of scripts inside `package.json`: `codegen:schema` (to download a schema from a GraphQL endpoint) and `codegen:generate` (to generate static types for GraphQl queries). Once created GraphQl schema and static types called these inside Listings.tsx component. Deleted types.ts file inside `Listings` folder. It is now important to **name** all queries and mutations, always, instead those scripts won't work properly.
+
+### STEP-08 Branch
+Installed **ANT Design** with `yarn add antd` and styled application importing different components from the that framework.
