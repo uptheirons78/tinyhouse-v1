@@ -25,3 +25,8 @@ Installed `apollo-boost`, `react-apollo` and `graphql` for Apollo Client setup. 
 
 ### STEP-08 Branch
 Installed **ANT Design** with `yarn add antd` and styled application importing different components from the that framework.
+
+# PART TWO
+
+### STEP-09 Branch
+Created `.gitignore` inside `/server` folder and deleted the one in the main route. Updated styles inside `/client` folder and changed app names inside of `package.json` both for `/client` and `/server` folder. Added `react-router-dom` and created app routes inside `/src/index.tsx`. Created all the basic components to be rendered in routes (containing, for now, just h2 tag with component name).
